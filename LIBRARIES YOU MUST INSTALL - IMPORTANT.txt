@@ -1,0 +1,26 @@
+INSTALL THE FOLLOWING LIBRARIES USING PIP OR CONDA :-
+
+1. tensorflow
+
+2. keras
+
+3. flask
+
+4. Pillow
+
+5. pandas
+
+6. matplotlib
+
+7. imgaug
+
+8. random
+
+9. opencv ( to install this use command : pip install opencv-python )
+
+10. socketio
+
+11. eventlet
+
+
+UNINSTALL SETUPTOOLS FROM PYTHON COMPLETELY ELSE THE CODE WILL GENERATE ERROR 

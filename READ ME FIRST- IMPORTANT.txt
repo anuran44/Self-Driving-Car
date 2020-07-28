@@ -1,0 +1,57 @@
+
+Project Name : Self Driving Car
+
+
+In order to run this project you will have to first open powershell/cmd in administrator mode in this folder then enter the command :
+
+
+python Driver.py
+
+
+wait for it to run once it shows server started then open the UDACITY CAR SIMULATOR and open the application in autonomous mode
+
+the shell/cmd will then show connected and the car will start to drive on its own and the angels of steering will get printed in the shell/cmd .
+
+
+
+Before Lauching UDACITY :-
+
+A screen will pop up for selecting graphics and resolution 
+
+MY SUGGESTIONS :-
+
+KEEP RESOLUTION : 1024*768 or 800*600
+
+Graphics : Fastest
+
+Screen Mode : Windowed
+
+The above gives a smooth performance , however , you are free to experiment with your own settings
+
+
+NOW IF YOU ARE AN EXPLORER AND WANT TO DO MORE EXPERIMENTS 
+
+Then I have provided the source code for generating the model too :-
+
+.ipynb is for notebook lovers 
+
+However , for those not familier with notebooks I have provided a .py file too that can be opened using any IDE that supports python
+
+FEEL FREE TO DO EXPERIMENTS ON THE MODEL BY CHANGING NODES OR REMOVING LAYERS BUT DO NOT CHNAGE THE NVIDA CNN MODEL ARCHITECTURE - KINDLY REFFER TO
+
+IMAGE I HAVE PROVIED IN THE FOLDER
+
+TO SAVE MODEL USE THE FOLLOWING :-
+
+GOOGLE COLAB USERS :-
+
+model.save('enter a model name of your choice')
+from google.colab import files
+files.download('Your model name here')
+
+JUPYTER NOTEBOOK USERS/OTHER PYTHON IDE USERS :-
+
+model.save('enter a model name of your choice here')
+
+
+ENJOY AND KEEP CODING !!!!!
